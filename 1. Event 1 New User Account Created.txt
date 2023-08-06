@@ -1,0 +1,26 @@
+1. Event 1: New User Account Created
+   - Action: A new user account is created in Gmail/YT.
+   - Published Event: "NewUserAccountCreatedEvent"
+   - Description: This event is triggered when a new user account is successfully created in Gmail/YT. It includes relevant user account information.
+
+2. Event 2: Subscription Created
+   - Action: Create a subscription service in YT.
+   - Published Event: "SubscriptionCreatedEvent"
+   - Description: This event is triggered when a user creates a subscription to follow a specific channel. It includes information about the user and the channel subscribed to.
+
+3. Event 3: User Channel Created
+   - Action: User creates a channel.
+   - Published Event: "UserChannelCreatedEvent"
+   - Description: This event is triggered when a user successfully creates a new channel. It includes information about the user and the newly created channel.
+
+4. Event 4: Video Uploaded
+   - Action: User uploads a video to their channel.
+   - Published Event: "VideoUploadedEvent"
+   - Description: This event is triggered when a user uploads a new video to their channel. It includes information about the user, the channel, and the uploaded video.
+
+Subscriber Events:
+
+1. Event 5: User Login
+   - Action: The user logs in to YT using the account.
+   - Subscribed Event: "UserLoginEvent"
+   - Description: This event is subscribed to by various components of the platform that need to know when a user logs in. It may trigger actions like updating user activity, loading personalized content, etc.
